@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+body[data-theme="dark"] {
+  background-color: #121212;
+  color: white;
+}
+
+.card {
+  background-color: inherit;
+  border: 1px solid #ccc;
+}
+.card-header {
+  background-color: #1e1e1e;
+  color: #61dafb;
+}
